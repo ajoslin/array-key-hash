@@ -44,6 +44,10 @@ The key to index the resulting hash by. Defaults to `'id'`.
 
 An object with keys representing ids of items in `array`, and values being the values of those items.
 
+### Related / Recommended
+
+- [array-hash-upsert](https://github.com/ajoslin/array-hash-upsert)
+
 ## License
 
 MIT © [Andrew Joslin](http://ajoslin.com)
