@@ -1,7 +1,7 @@
 {
   "name": "array-key-hash",
   "main": "index.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the id keys out of an array and create a hash of the values",
   "license": "MIT",
   "repository": "ajoslin/array-key-hash",
