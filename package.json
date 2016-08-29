@@ -1,0 +1,34 @@
+{
+  "name": "array-key-hash",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Get the id keys out of an array and create a hash of the values",
+  "license": "MIT",
+  "repository": "ajoslin/array-key-hash",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "array",
+    "hash",
+    "object",
+    "map",
+    "values",
+    "keys",
+    "key",
+    "id"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^7.0.0"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ]
+}
