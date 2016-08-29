@@ -29,11 +29,13 @@ test('custom key', function (t) {
   t.end()
 })
 
-test('items with key missing are not added', function (t) {
+test('items with key missing or null items are not added', function (t) {
   const values = [
     {id: 'a', foo: 1},
     {foo: 2},
-    {id: 'c', foo: 3}
+    {id: 'c', foo: 3},
+    null,
+    undefined
   ]
 
   t.deepEqual(arrayKeyHash(values), {
